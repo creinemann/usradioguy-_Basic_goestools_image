@@ -8,8 +8,9 @@ It includes Raspberry PI lite OS Release date: January 11th 2021
 Kernel version: 5.4, Goestools with basic configuration, and Spyserver
 
 
-To install, download the img file from my site at http://usradioguy.com/goestools/..., then, using Win32 Disk Imager or Balena Etcher
-write the image to a micro SD card of at least 32GB.
+To install, download the img file from my site at http://usradioguy.com/goestools/..., (the img file is about 16GB, far to large for a github repository)
+Then, using Win32 Disk Imager or Balena Etcher
+Write the image to a micro SD card of at least 32GB.
 
 Then, if you plan on using wifi, you will need to edite the wpa_supplicant.conf file
 and enter in your own WIFI name and password, example:
@@ -30,7 +31,12 @@ and enter in your own WIFI name and password, example:
 
 ___________
 
+Install the sd card into the raspberry pi and power it on.
+From this point you will need to ssh into the PI with puTTY.
+
 You will also need to configure the goesrecv.conf to match your dongle.
 It is currently configured for a Nooelec SmarTee XTR.
 
-Further details can be found on my site at http://usradioguy.com
+**Further details and dish setup can be found on my site at http://usradioguy.com**
+
+![usradioguysmall](https://user-images.githubusercontent.com/47005123/109399000-ba295380-7905-11eb-84a3-493262bbd184.gif)
