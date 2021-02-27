@@ -8,7 +8,7 @@ It includes Raspberry PI lite OS Release date: January 11th 2021
 Kernel version: 5.4, Goestools with basic configuration, and Spyserver
 
 
-To install, download the img file, then, using Win32 Disk Imager or Balena Etcher
+To install, download the img file from my site at http://usradioguy.com/goestools/..., then, using Win32 Disk Imager or Balena Etcher
 write the image to a micro SD card of at least 32GB.
 
 Then, if you plan on using wifi, you will need to edite the wpa_supplicant.conf file
